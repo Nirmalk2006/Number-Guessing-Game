@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No.Guessing </title>
+    <link rel="stylesheet" href="nogue.css">
+</head>
+<body>
+    <div id = "game">
+    <nav>
+        <h1>Number Guessing Game</h1>
+    </nav>
+    <br>
+        <form class="form">
+            <label for="guess"><h2>Guess a number</h2></label>
+            <input type="text" id="guess" name="guess">
+            <button type="submit" class="btn">Submit Guess</button>
+        </form>
+        <div class="resultParas">
+            <p>Previous guesses: <span class="guesses"></span></p>
+            <p>Guesses Remaining: <span class="lastResult"></span></p>
+            <p class="loworHigh"></p>
+        </div>
+    </div>
+</body>
+   <script src="Script.js"></script>
+</html>
